@@ -1,0 +1,43 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+p {
+  text-align: center;
+  line-height: 30px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.links a:hover {
+  transform: scale(1.1);
+}
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 38px rgba(0, 0, 0, 0.2);
+}
+.number p {
+  font-size: 28px;
+}
+.number {
+  background: rgba(241, 193, 130, 0.589);
+  background-size: cover;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+
+}
