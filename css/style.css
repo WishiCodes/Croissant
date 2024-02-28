@@ -17,6 +17,9 @@ p {
   margin-top: 20px;
   padding: 10px;
   text-decoration: none;
+   background: rgba(241, 193, 130, 0.589);
+   border-radius: 15px;
+   margin: 10px;
 }
 .links a:hover {
   transform: scale(1.1);
@@ -33,11 +36,10 @@ img {
 }
 .number {
   background: rgba(241, 193, 130, 0.589);
-  background-size: cover;
   width: 400px;
   display: block;
   margin: 0 auto;
   border-radius: 15px;
   padding: 30px;
-
 }
+
